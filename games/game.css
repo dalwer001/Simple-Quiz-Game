@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+body{
+    margin: 90px;
+    background: rgb(29,28, 28);
+}
+
+.grid{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+    padding: 10px 50px 50px 50px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px rgb(62, 248, 223);
+}
+
+.grid h1{
+    font-family: 'nova square',cursive;
+    background-color: azure;
+    font-size: 60px;
+    border: 1px solid black ;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    padding: 2px 0px;
+
+}
+
+
+.grid #question{
+    font-family: 'nova square',cursive;
+    font-size: 30px;
+    color: burlywood;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+
+#btn0,#btn1,#btn2,#btn3{
+    width: 250px;
+    font-size: 25px; 
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+    background: linear-gradient(90deg,rgba(255,247,9)0%,rgba(0, 255, 42, 0.829)100%) ;
+    border-radius: 4px;
+}
+
+#progress{
+    font-family: 'nova square',cursive;
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg,rgb(221, 132, 31)0%,rgba(255, 0, 85, 0.685)100%);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(230, 59, 96, 0.596) ;
+    transition: transform 150ms;
+    color: white;
+    transform: scale(1.03);
+
+    
+}
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+    outline: 0;
+}
+
+
+
